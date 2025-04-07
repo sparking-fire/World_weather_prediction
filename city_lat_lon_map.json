@@ -1,0 +1,378 @@
+{
+    "France|Paris": {
+        "latitude": 48.8588897,
+        "longitude": 2.3200410217200766
+    },
+    "France|Nice": {
+        "latitude": 43.7009358,
+        "longitude": 7.2683912
+    },
+    "United Arab Emirates|Dubai": {
+        "latitude": 25.074282349999997,
+        "longitude": 55.18853865430702
+    },
+    "United Arab Emirates|Abu Dhabi": {
+        "latitude": 24.4538352,
+        "longitude": 54.3774014
+    },
+    "United Arab Emirates|Sharjah": {
+        "latitude": 25.2311534,
+        "longitude": 54.21900831355923
+    },
+    "Spain|Madrid": {
+        "latitude": 40.4167047,
+        "longitude": -3.7035825
+    },
+    "Spain|Barcelona": {
+        "latitude": 41.3828939,
+        "longitude": 2.1774322
+    },
+    "Spain|Seville": {
+        "latitude": 37.3886303,
+        "longitude": -5.9953403
+    },
+    "Spain|Valencia": {
+        "latitude": 39.4697065,
+        "longitude": -0.3763353
+    },
+    "Spain|Palma de Mallorca": {
+        "latitude": 39.58125245,
+        "longitude": 2.7092683401782343
+    },
+    "Japan|Tokyo": {
+        "latitude": 35.6768601,
+        "longitude": 139.7638947
+    },
+    "Japan|Osaka": {
+        "latitude": 34.6937569,
+        "longitude": 135.5014539
+    },
+    "Japan|Kyoto": {
+        "latitude": 35.0115754,
+        "longitude": 135.7681441
+    },
+    "Japan|Sapporo": {
+        "latitude": 43.061936,
+        "longitude": 141.3542924
+    },
+    "Japan|Fukuoka": {
+        "latitude": 33.6251241,
+        "longitude": 130.6180016
+    },
+    "Netherlands|Amsterdam": {
+        "latitude": 52.3730796,
+        "longitude": 4.8924534
+    },
+    "Germany|Berlin": {
+        "latitude": 52.510885,
+        "longitude": 13.3989367
+    },
+    "Germany|Munich": {
+        "latitude": 48.1371079,
+        "longitude": 11.5753822
+    },
+    "Germany|Frankfurt": {
+        "latitude": 50.1106444,
+        "longitude": 8.6820917
+    },
+    "Italy|Rome": {
+        "latitude": 41.8933203,
+        "longitude": 12.4829321
+    },
+    "Italy|Florence": {
+        "latitude": 43.7697955,
+        "longitude": 11.2556404
+    },
+    "Italy|Venice": {
+        "latitude": 45.4371908,
+        "longitude": 12.3345898
+    },
+    "Italy|Verona": {
+        "latitude": 45.442497700000004,
+        "longitude": 10.985737689444763
+    },
+    "Italy|Bologna": {
+        "latitude": 44.4938203,
+        "longitude": 11.3426327
+    },
+    "United States|New York City": {
+        "latitude": 40.7127281,
+        "longitude": -74.0060152
+    },
+    "United States|Los Angeles": {
+        "latitude": 34.0536909,
+        "longitude": -118.242766
+    },
+    "United States|Orlando": {
+        "latitude": 28.5421109,
+        "longitude": -81.3790304
+    },
+    "United States|Las Vegas": {
+        "latitude": 36.2533896,
+        "longitude": -115.2794366262601
+    },
+    "United States|Miami": {
+        "latitude": 25.7741728,
+        "longitude": -80.19362
+    },
+    "United States|San Francisco": {
+        "latitude": 37.7792588,
+        "longitude": -122.4193286
+    },
+    "United States|Washington": {
+        "latitude": 38.8950368,
+        "longitude": -77.0365427
+    },
+    "United Kingdom|London": {
+        "latitude": 51.4893335,
+        "longitude": -0.14405508452768728
+    },
+    "United Kingdom|Edinburgh": {
+        "latitude": 55.9533456,
+        "longitude": -3.1883749
+    },
+    "Singapore|Singapore": {
+        "latitude": 1.2899175,
+        "longitude": 103.8519072
+    },
+    "South Korea|Seoul": {
+        "latitude": 37.5666791,
+        "longitude": 126.9782914
+    },
+    "South Korea|Busan": {
+        "latitude": 35.1799528,
+        "longitude": 129.0752365
+    },
+    "Ireland|Dublin": {
+        "latitude": 53.3493795,
+        "longitude": -6.2605593
+    },
+    "China|Hong Kong": {
+        "latitude": 22.350627,
+        "longitude": 114.1849161
+    },
+    "China|Shanghai": {
+        "latitude": 31.2312707,
+        "longitude": 121.4700152
+    },
+    "China|Guangzhou": {
+        "latitude": 23.1301964,
+        "longitude": 113.2592945
+    },
+    "China|Shenzhen": {
+        "latitude": 22.5445741,
+        "longitude": 114.0545429
+    },
+    "China|Macau": {
+        "latitude": 22.1757605,
+        "longitude": 113.5514142
+    },
+    "China|Zhuhai": {
+        "latitude": 22.07045535,
+        "longitude": 113.7209194273619
+    },
+    "China|Guilin": {
+        "latitude": 25.2779894,
+        "longitude": 110.2910622
+    },
+    "China|Beijing": {
+        "latitude": 40.190632,
+        "longitude": 116.412144
+    },
+    "Austria|Vienna": {
+        "latitude": 48.2083537,
+        "longitude": 16.3725042
+    },
+    "Portugal|Lisbon": {
+        "latitude": 38.7077507,
+        "longitude": -9.1365919
+    },
+    "Portugal|Porto": {
+        "latitude": 41.1494512,
+        "longitude": -8.6107884
+    },
+    "Czech Republic|Prague": {
+        "latitude": 50.0596288,
+        "longitude": 14.446459273258009
+    },
+    "Australia|Sydney": {
+        "latitude": -33.8698439,
+        "longitude": 151.2082848
+    },
+    "Australia|Melbourne": {
+        "latitude": -37.8142454,
+        "longitude": 144.9631732
+    },
+    "Turkey|Istanbul": {
+        "latitude": 41.006381,
+        "longitude": 28.9758715
+    },
+    "Turkey|Antalya": {
+        "latitude": 36.8865728,
+        "longitude": 30.7030242
+    },
+    "Turkey|Mugla": {
+        "latitude": 37.1642053,
+        "longitude": 28.2624288
+    },
+    "Canada|Toronto": {
+        "latitude": 43.6534817,
+        "longitude": -79.3839347
+    },
+    "Canada|Vancouver": {
+        "latitude": 49.2608724,
+        "longitude": -123.113952
+    },
+    "Canada|Montreal": {
+        "latitude": 45.5031824,
+        "longitude": -73.5698065
+    },
+    "Greece|Athens": {
+        "latitude": 37.9755648,
+        "longitude": 23.7348324
+    },
+    "Greece|Rhodes": {
+        "latitude": 36.172529749999995,
+        "longitude": 27.91940163839584
+    },
+    "Greece|Thessaloniki": {
+        "latitude": 40.6403167,
+        "longitude": 22.9352716
+    },
+    "Greece|Heraklion": {
+        "latitude": 35.33908,
+        "longitude": 25.1332843
+    },
+    "Switzerland|Zurich": {
+        "latitude": 47.3744489,
+        "longitude": 8.5410422
+    },
+    "Thailand|Bangkok": {
+        "latitude": 13.7524938,
+        "longitude": 100.4935089
+    },
+    "Thailand|Phuket": {
+        "latitude": 7.9366015,
+        "longitude": 98.3529292
+    },
+    "Malaysia|Kuala Lumpur": {
+        "latitude": 3.1526589,
+        "longitude": 101.7022205
+    },
+    "Malaysia|Johor Bahru": {
+        "latitude": 1.4581986,
+        "longitude": 103.7649059
+    },
+    "Sweden|Stockholm": {
+        "latitude": 59.3251172,
+        "longitude": 18.0710935
+    },
+    "Belgium|Brussels": {
+        "latitude": 50.8465573,
+        "longitude": 4.351697
+    },
+    "Israel|Tel Aviv": {
+        "latitude": 32.0852997,
+        "longitude": 34.7818064
+    },
+    "Israel|Jerusalem": {
+        "latitude": 31.7788242,
+        "longitude": 35.2257626
+    },
+    "Poland|Warsaw": {
+        "latitude": 52.2319581,
+        "longitude": 21.0067249
+    },
+    "Poland|Krak\u00f3w": {
+        "latitude": 50.0469432,
+        "longitude": 19.997153435836697
+    },
+    "Brazil|S\u00e3o Paulo": {
+        "latitude": -23.5506507,
+        "longitude": -46.6333824
+    },
+    "Brazil|Rio de Janeiro": {
+        "latitude": -22.9110137,
+        "longitude": -43.2093727
+    },
+    "Mexico|Mexico City": {
+        "latitude": 19.3207722,
+        "longitude": -99.1514677512441
+    },
+    "Mexico|Canc\u00fan": {
+        "latitude": 21.1527467,
+        "longitude": -86.8425761
+    },
+    "Pakistan|Islamabad": {
+        "latitude": 33.6938118,
+        "longitude": 73.0651511
+    },
+    "Qatar|Doha": {
+        "latitude": 25.2856329,
+        "longitude": 51.5264162
+    },
+    "Argentina|Buenos Aires": {
+        "latitude": -34.6083696,
+        "longitude": -58.4440583
+    },
+    "Peru|Lima": {
+        "latitude": -12.0621065,
+        "longitude": -77.0365256
+    },
+    "India|Delhi": {
+        "latitude": 28.6273928,
+        "longitude": 77.1716954
+    },
+    "India|Mumbai": {
+        "latitude": 19.054999,
+        "longitude": 72.8692035
+    },
+    "Estonia|Tallinn": {
+        "latitude": 59.4372155,
+        "longitude": 24.7453688
+    },
+    "Saudi Arabia|Mecca": {
+        "latitude": 21.420847,
+        "longitude": 39.826869
+    },
+    "Saudi Arabia|Riyadh": {
+        "latitude": 23.333333,
+        "longitude": 45.333333
+    },
+    "Vietnam|Ho Chi Minh City": {
+        "latitude": 10.7763897,
+        "longitude": 106.7011391
+    },
+    "Vietnam|Hanoi": {
+        "latitude": 21.0283334,
+        "longitude": 105.854041
+    },
+    "Chile|Santiago": {
+        "latitude": -33.4377756,
+        "longitude": -70.6504502
+    },
+    "Georgia|Tbilisi": {
+        "latitude": 41.6934591,
+        "longitude": 44.8014495
+    },
+    "Morocco|Marrakech": {
+        "latitude": 31.6258257,
+        "longitude": -7.9891608
+    },
+    "Lithuania|Vilnius": {
+        "latitude": 54.6870458,
+        "longitude": 25.2829111
+    },
+    "Dominican Republic|Punta Cana": {
+        "latitude": 18.556551,
+        "longitude": -68.3691611
+    },
+    "Egypt|Cairo": {
+        "latitude": 30.0443879,
+        "longitude": 31.2357257
+    },
+    "Oman|Muscat": {
+        "latitude": 23.5882019,
+        "longitude": 58.3829448
+    }
+}

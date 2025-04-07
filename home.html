@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEATHER PREDICTION</title>
+    <link rel="stylesheet" href="static/style.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-image: url('static/weather.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: 'Times New Roman', Times, serif;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>WORLD WEATHER PREDICTION</h1>
+
+    <form method="POST" action="/predict">
+        <label for="Country">Country:</label>
+        <select id="Country" name="Country" required>
+            <option value="">--Select Country--</option>
+        </select>
+
+        <label for="City">City:</label>
+        <select id="City" name="City" required>
+            <option value="">--Select City--</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+    {% if result %}
+    <div class="result">
+        {% if result.error %}
+            <p class="error">{{ result.error }}</p>
+        {% else %}
+            <h2>Weather Prediction for {{ result.city }}, {{ result.country }}</h2>
+            <p><strong>Temperature:</strong> {{ result.temperature }}</p>
+            <p><strong>Wind Speed:</strong> {{ result.wind_speed }}</p>
+            <p><strong>Forecast:</strong><br> {{ result.weather_description | safe }}</p>
+        {% endif %}
+    </div>
+    {% endif %}
+
+    <script>
+        const countryCityMap = {
+            'France': ['Paris', 'Nice'],
+            'United Arab Emirates': ['Dubai', 'Abu Dhabi', 'Sharjah'],
+            'Spain': ['Madrid', 'Barcelona', 'Seville', 'Valencia', 'Palma de Mallorca'],
+            'Japan': ['Tokyo', 'Osaka', 'Kyoto', 'Sapporo', 'Fukuoka'],
+            'Netherlands': ['Amsterdam'],
+            'Germany': ['Berlin', 'Munich', 'Frankfurt'],
+            'Italy': ['Rome', 'Florence', 'Venice', 'Verona', 'Bologna'],
+            'United States': ['New York City', 'Los Angeles', 'Orlando', 'Las Vegas', 'Miami', 'San Francisco', 'Washington'],
+            'United Kingdom': ['London', 'Edinburgh'],
+            'Singapore': ['Singapore'],
+            'South Korea': ['Seoul', 'Busan'],
+            'Ireland': ['Dublin'],
+            'China': ['Hong Kong', 'Shanghai', 'Guangzhou', 'Shenzhen', 'Macau', 'Zhuhai', 'Guilin', 'Beijing'],
+            'Austria': ['Vienna'],
+            'Portugal': ['Lisbon', 'Porto'],
+            'Czech Republic': ['Prague'],
+            'Australia': ['Sydney', 'Melbourne'],
+            'Turkey': ['Istanbul', 'Antalya', 'Mugla'],
+            'Canada': ['Toronto', 'Vancouver', 'Montreal'],
+            'Greece': ['Athens', 'Rhodes', 'Thessaloniki', 'Heraklion'],
+            'Switzerland': ['Zurich'],
+            'Thailand': ['Bangkok', 'Phuket'],
+            'Malaysia': ['Kuala Lumpur', 'Johor Bahru'],
+            'Sweden': ['Stockholm'],
+            'Belgium': ['Brussels'],
+            'Israel': ['Tel Aviv', 'Jerusalem'],
+            'Poland': ['Warsaw', 'Kraków'],
+            'Brazil': ['São Paulo', 'Rio de Janeiro'],
+            'Mexico': ['Mexico City', 'Cancún'],
+            'Pakistan': ['Islamabad'],
+            'Qatar': ['Doha'],
+            'Argentina': ['Buenos Aires'],
+            'Peru': ['Lima'],
+            'India': ['Delhi', 'Mumbai'],
+            'Estonia': ['Tallinn'],
+            'Saudi Arabia': ['Mecca', 'Riyadh'],
+            'Vietnam': ['Ho Chi Minh City', 'Hanoi'],
+            'Chile': ['Santiago'],
+            'Georgia': ['Tbilisi'],
+            'Morocco': ['Marrakech'],
+            'Lithuania': ['Vilnius'],
+            'Dominican Republic': ['Punta Cana'],
+            'Egypt': ['Cairo'],
+            'Oman': ['Muscat']
+        };
+
+        const countrySelect = document.getElementById('Country');
+        const citySelect = document.getElementById('City');
+
+        // Populate country dropdown
+        Object.keys(countryCityMap).forEach(country => {
+            const option = document.createElement('option');
+            option.value = country;
+            option.textContent = country;
+            countrySelect.appendChild(option);
+        });
+
+        // Update city dropdown when a country is selected
+        countrySelect.addEventListener('change', () => {
+            const selectedCountry = countrySelect.value;
+            citySelect.innerHTML = '<option value="">--Select City--</option>';
+
+            if (selectedCountry in countryCityMap) {
+                countryCityMap[selectedCountry].forEach(city => {
+                    const option = document.createElement('option');
+                    option.value = city;
+                    option.textContent = city;
+                    citySelect.appendChild(option);
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>
